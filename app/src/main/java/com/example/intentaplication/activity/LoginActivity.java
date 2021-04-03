@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
         String user_login = username.getText().toString();
         Intent i = new Intent(this,IntentAppActivity.class);
         //kirimkan usernamenya ke tampilan utama
-        i.putExtra("USERNAME", "MAKMUR MULYONO");
+        i.putExtra("USERNAME", user_login);
         startActivity(i);
     }
 }
